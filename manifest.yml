@@ -7,7 +7,7 @@
 
 applications:
   - name: suraj-app # Step 1: Change your application name
-    buildpack: predix_openresty_buildpack
+    buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
     #path: dist
     memory: 64M
     stack: cflinuxfs2
