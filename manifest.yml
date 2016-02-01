@@ -6,7 +6,7 @@
 #  Step 2 - After you have your application running you can bind to the services below as described on predix.io
 
 applications:
-  - name: suraj-app # Step 1: Change your application name
+  - name: geoEnhanceApp # Step 1: Change your application name
     buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
     #path: dist
     memory: 64M
